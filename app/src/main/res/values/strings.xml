@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name" translatable="false">Trevo</string>
+    <string name="navigation_drawer_open">Abrir o Navegador</string>
+    <string name="navigation_drawer_close">Fechar o Navegador</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="veja_mais">Veja mais</string>
+    <string name="produtos">Produtos</string>
+    <string name="trevo">Trevo</string>
+    <string name="detalhe">Detalhe</string>
+    <string name="orcamento">Orçamento</string>
+    <string name="pesquisar">Pesquisar…</string>
+    <string name="ver_detalhes">Ver detalhes</string>
+    <string name="produto_mais_vendido">Produto mais vendido</string>
+    <string name="cultura">Cultura</string>
+    <string name="area_suportada">Área suportada</string>
+    <string name="categoria">Categoria</string>
+    <string name="pulverizadores">Pulverizadores</string>
+    <string name="adicionar_ao_orcamento">Adicionar ao orçamento</string>
+    <string name="enviar_solicitaco">Enviar solicitação</string>
+    <string name="nome">Nome</string>
+    <string name="dados_do_cliente">Informações do Cliente</string>
+    <string name="salvar_os_dados">Salvar Informações</string>
+    <string name="e_mail">E-Mail</string>
+    <string name="telefone">Telefone</string>
+    <string name="cliente">Cliente</string>
+    <string name="meus_orcamentos">Meus Orçamentos</string>
+    <string name="minhas_informacoes">Minhas Informações</string>
+    <string name="orcamentos_enviados">Orçamentos Enviados</string>
+</resources>

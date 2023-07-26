@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="grey">#959595</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="appbar">#198f90</color>
+    <color name="fundo">#feffff</color>
+    <color name="botao">#e58322</color>
+    <color name="delete">#cd4b22</color>
+
+    <color name="x">#37ba92</color>
+    <color name="c">#266163</color>
+    <color name="appbar_dark">#134245</color>
+    <color name="fundo_dark">#9A9A9A</color>
+    <color name="botao_dark">#935517</color>
+    <color name="delete_dark">#A62B04</color>
+</resources>

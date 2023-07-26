@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="br.senai.sp.informatica.trevo.ui.home.HomeFragment"
+        android:label="@string/produtos"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_nav_detalhe"
+            app:destination="@id/nav_detalhe"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_orcamento"
+            app:destination="@id/nav_orcamento"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_cliente"
+            app:destination="@id/nav_cliente"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"/>
+        <action
+            android:id="@+id/action_nav_home_to_nav_proposta"
+            app:destination="@id/nav_proposta"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_detalhe"
+        android:name="br.senai.sp.informatica.trevo.ui.home.detalhe.DetalheFragment"
+        android:label="@string/detalhe"
+        tools:layout="@layout/fragment_detalhe" />
+
+    <fragment
+        android:id="@+id/nav_orcamento"
+        android:name="br.senai.sp.informatica.trevo.ui.orcamento.OrcamentoFragment"
+        android:label="@string/orcamento"
+        tools:layout="@layout/fragment_orcamento">
+        <action
+            android:id="@+id/action_nav_orcamento_to_nav_cliente"
+            app:destination="@id/nav_cliente"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_cliente"
+        android:name="br.senai.sp.informatica.trevo.ui.cliente.ClienteFragment"
+        android:label="@string/cliente"
+        tools:layout="@layout/fragment_cliente"/>
+
+    <fragment
+        android:id="@+id/nav_proposta"
+        android:name="br.senai.sp.informatica.trevo.ui.proposta.PropostaFragment"
+        android:label="@string/cliente"
+        tools:layout="@layout/fragment_proposta">
+        <action
+            android:id="@+id/action_nav_proposta_to_nav_detalhe_proposta"
+            app:destination="@id/nav_detalhe_proposta"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_detalhe_proposta"
+        android:name="br.senai.sp.informatica.trevo.ui.proposta.detalhe.PropostaDetalheFragment"
+        android:label="@string/cliente"
+        tools:layout="@layout/fragment_proposta_produto"/>
+</navigation>
